@@ -61,7 +61,7 @@
 3.  React / React Native
     -   React Hooks
         -   [ ] UseEffect
-        -   [x] UseCallback
+        -   [ ] UseCallback
         -   [ ] UseRef
         -   [ ] UseState
         -   [ ] UseMemo
