@@ -57,8 +57,10 @@
         ```
 
     -   [ ] Event Loop
+    -   [ ] Pure functions
 
 3.  React / React Native
+
     -   React Hooks
         -   [ ] UseEffect
         -   [ ] UseCallback
@@ -67,7 +69,14 @@
         -   [ ] UseMemo
         -   [ ] UseLayoutEffect
     -   [ ] React.memo HOK
-4.  Algorithm tasks
+    -   [ ] Pure components
+
+4.  Git
+
+    -   [ ] Rebase vs Merge
+    -   [ ] Cherry pick
+
+5.  Algorithm tasks
 
     -   [ ] Left only uniq values in array
 
