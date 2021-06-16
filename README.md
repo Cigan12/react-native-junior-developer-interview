@@ -59,7 +59,13 @@
     -   [ ] Event Loop
     -   [ ] Pure functions
 
-3.  React / React Native
+3.  Typescript
+
+    -   Return type of function
+    -   How to get interface field type
+    -   Conditionals types
+
+4.  React / React Native
 
     -   React Hooks
         -   [ ] UseEffect
@@ -71,12 +77,13 @@
     -   [ ] React.memo HOK
     -   [ ] Pure components
 
-4.  Git
+5.  Git
 
+    -   [ ] Commit ammend
     -   [ ] Rebase vs Merge
     -   [ ] Cherry pick
 
-5.  Algorithm tasks
+6.  Algorithm tasks
 
     -   [ ] Left only uniq values in array
 
