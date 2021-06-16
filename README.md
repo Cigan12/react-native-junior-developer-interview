@@ -56,8 +56,8 @@
         }
         ```
 
-    -   [ ] Event Loop (не знает)
-    -   [ ] Pure functions (знает)
+    -   [ ] Event Loop (плохо знает)
+    -   [x] Pure functions
 
 3.  Typescript
 
