@@ -1,11 +1,11 @@
 # Junior React Native developer interview
 
-1.  Job experience
+1.  Job experience (опыта нет)
     -   React
     -   React Native
 2.  Javascript basics
 
-    -   [ ] Context, Bind, Call, Apply
+    -   [ ] Context, Bind, Call, Apply (плохо знает)
 
         ```javascript
         const obj = {
@@ -26,7 +26,7 @@
         obj.func()(); // 3.
         ```
 
-    -   [ ] Hoisting
+    -   [ ] Hoisting (плохо знает)
 
         ```javascript
         console.log('test var ', testvar);
@@ -46,7 +46,7 @@
         func();
         ```
 
-    -   [ ] Closures
+    -   [x] Closures
 
         ```javascript
         for (var i = 0; i < 10; i++) {
@@ -56,40 +56,40 @@
         }
         ```
 
-    -   [ ] Event Loop
-    -   [ ] Pure functions
+    -   [ ] Event Loop (не знает)
+    -   [ ] Pure functions (знает)
 
 3.  Typescript
 
-    -   Return type of function
-    -   How to get interface field type
-    -   Conditionals types
+    -   [ ] Return type of function (не знает)
+    -   [ ] How to get interface field type (не знает)
+    -   [ ] Conditionals types (не знает)
 
 4.  React / React Native
 
     -   React Hooks
-        -   [ ] UseEffect
-        -   [ ] UseCallback
-        -   [ ] UseRef
-        -   [ ] UseState
-        -   [ ] UseMemo
-        -   [ ] UseLayoutEffect
-    -   [ ] React.memo HOK
-    -   [ ] Pure components
+        -   [x] UseEffect
+        -   [ ] UseCallback (не знает)
+        -   [x] UseRef
+        -   [x] UseState
+        -   [ ] UseMemo (не знает)
+        -   [ ] UseLayoutEffect (забыл спросить)
+    -   [ ] React.memo HOK (не знает)
+    -   [ ] Pure components (не знает)
 
 5.  Git
 
-    -   [ ] Commit ammend
-    -   [ ] Rebase vs Merge
-    -   [ ] Cherry pick
+    -   [ ] Commit ammend (не знает)
+    -   [ ] Rebase vs Merge (не знает)
+    -   [ ] Cherry pick (не знает)
 
 6.  Algorithm tasks
 
-    -   [ ] Left only uniq values in array
+    -   [ ] Left only uniq values in array (сделал, но сделал так себе способом, ожидалось, что будет использовать new Set)
 
         > [Link](https://codesandbox.io/s/awesome-kowalevski-or9vf?file=/src/index.js)
 
-    -   [ ] Find index of the first uniq char
+    -   [ ] Find index of the first uniq char (не сделал)
         > [Link](https://codesandbox.io/s/recursing-easley-p4wsk?file=/src/index.js)
 
 ---
