@@ -1,11 +1,11 @@
 # Junior React Native developer interview
 
-1.  Job experience (опыта нет)
+1.  Job experience 
     -   React
     -   React Native
 2.  Javascript basics
 
-    -   [ ] Context, Bind, Call, Apply (плохо знает)
+    -   [ ] Context, Bind, Call, Apply 
 
         ```javascript
         const obj = {
@@ -26,7 +26,7 @@
         obj.func()(); // 3.
         ```
 
-    -   [ ] Hoisting (плохо знает)
+    -   [ ] Hoisting 
 
         ```javascript
         console.log('test var ', testvar);
@@ -46,7 +46,7 @@
         func();
         ```
 
-    -   [x] Closures
+    -   [ ] Closures
 
         ```javascript
         for (var i = 0; i < 10; i++) {
@@ -56,84 +56,41 @@
         }
         ```
 
-    -   [ ] Event Loop (плохо знает)
-    -   [x] Pure functions
+    -   [ ] Event Loop 
+    -   [ ] Pure functions
 
 3.  Typescript
 
-    -   [ ] Return type of function (не знает)
-    -   [ ] How to get interface field type (не знает)
-    -   [ ] Conditionals types (не знает)
+    -   [ ] Return type of function 
+    -   [ ] How to get interface field type 
+    -   [ ] Conditionals types 
 
 4.  React / React Native
 
     -   React Hooks
-        -   [x] UseEffect
-        -   [ ] UseCallback (не знает)
-        -   [x] UseRef
-        -   [x] UseState
-        -   [ ] UseMemo (не знает)
-        -   [ ] UseLayoutEffect (забыл спросить)
-    -   [ ] React.memo HOK (не знает)
-    -   [ ] Pure components (не знает)
+        -   [ ] UseEffect
+        -   [ ] UseCallback
+        -   [ ] UseRef
+        -   [ ] UseState
+        -   [ ] UseMemo 
+        -   [ ] UseLayoutEffect 
+    -   [ ] React.memo HOK 
+    -   [ ] Pure components
 
 5.  Git
 
-    -   [ ] Commit ammend (не знает)
-    -   [ ] Rebase vs Merge (не знает)
-    -   [ ] Cherry pick (не знает)
+    -   [ ] Commit ammend
+    -   [ ] Rebase vs Merge
+    -   [ ] Cherry pick
 
 6.  Algorithm tasks
 
-    -   [ ] Left only uniq values in array (сделал, но сделал так себе способом, ожидалось, что будет использовать new Set)
+    -   [ ] Left only uniq values in array 
 
         > [Link](https://codesandbox.io/s/awesome-kowalevski-or9vf?file=/src/index.js)
 
-    -   [ ] Find index of the first uniq char (не сделал)
+    -   [ ] Find index of the first uniq char
         > [Link](https://codesandbox.io/s/recursing-easley-p4wsk?file=/src/index.js)
 
 ---
 
-## Test task feedback
-
-### What did we like
-
--   Styles variables
-
-### What we didn't like
-
--   Inline styles
--   Styles usage, you are using only one large file for styles
--   Redux deprecated unreadable usage
--   Navigation folder useless
--   Not using separate file for logic
--   Not using React HOC React.memo
--   Not using React hooks (UseCallback, UseMemo)
--   Type "any" usage
--   Spread using for multiple styles on the element
-
-    > Example:
-
-    ```jsx
-    <View style={{ ...commonStyles.heartIconContainer, ...style }} >
-    ```
-
--   Unnecessary conditions
-
-    > Example:
-
-    ```jsx
-    {
-        pointer ? (
-            <TouchableOpacity style={commonStyles._inputPointer}>
-                <PointerLight />
-            </TouchableOpacity>
-        ) : null;
-    }
-    ```
-
--   Commits style
-
----
-
-# Total 0/6

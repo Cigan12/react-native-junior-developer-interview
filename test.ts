@@ -4,6 +4,8 @@ interface Test {
     };
 }
 
-interface Another {
-    field: Test['field'];
+const getDateNow = () => {
+    return {date: Date.now()}
 }
+
+// type returnTypeOfGetDateNow = ? 
